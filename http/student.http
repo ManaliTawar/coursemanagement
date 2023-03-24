@@ -1,0 +1,12 @@
+GET http://localhost:8080/student/all
+###
+POST http://localhost:8080/student/create
+Content-Type: application/json
+
+{
+  "name": "Neha Bhatla",
+  "program": "Master Of Science",
+  "credits": "30",
+  "course": "Computer Science",
+  "gpa": "4"
+}
